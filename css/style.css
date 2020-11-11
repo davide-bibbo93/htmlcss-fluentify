@@ -74,3 +74,13 @@ header{
   margin-top: 20px;
   padding: 10px 10px;
 }
+
+.sotto{
+  width: 80%;
+  height: 100px;
+  background: blue;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 22px;
+  font-size: 18px;
+}
