@@ -7,6 +7,7 @@
 
 .container {
   width: 80%;
+  height: 400px;
   margin: 0 auto;
   background: green;
 }
@@ -22,20 +23,54 @@
 }
 /* end common settings */
 
-.inte{
-  height: 400px;
+header{
   width: 80%;
-  background: red;
+  height: 400px;
+  background-color: red;
   margin: 0 auto;
   position: relative;
 }
-
-.logo-flu{
+.logo-container{
+  height: 60px;
+  background-color: blue;
   position: relative;
-  height: 50px;
-  background: blue;
 }
 
-.logo-flu ul li{
+.logo-container img{
+  padding: 10px;
+}
+
+.list-l{
+  position: absolute;
+  left: 150px;
+  bottom: 20px;
+}
+.list-r{
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+
+}
+.logo-container ul li{
   display: inline-block;
+}
+.logo-container a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: white;
+  font-size: 20px;
+  transform: translate(-20%, -50%);
+}
+
+.title button{
+  margin-top: 20px;
+  padding: 10px 10px;
 }
