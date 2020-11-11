@@ -7,7 +7,8 @@
 
 .container {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
+  background: green;
 }
 
 .clearfix::after{
@@ -16,16 +17,25 @@
   clear: both;
 }
 
+.fl{
+  float:left;
+}
 /* end common settings */
 
-.intestazione{
-  height: 500px;
-  background: rgb(12,50,90);
+.inte{
+  height: 400px;
+  width: 80%;
+  background: red;
+  margin: 0 auto;
+  position: relative;
 }
 
-.navbar{
-  height: 80px;
-  line-height: 80px;
-  background: red;
-  text-transform: uppercase;
+.logo-flu{
+  position: relative;
+  height: 50px;
+  background: blue;
+}
+
+.logo-flu ul li{
+  display: inline-block;
 }
