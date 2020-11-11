@@ -9,7 +9,8 @@
   width: 80%;
   height: 400px;
   margin: 0 auto;
-  background: green;
+  position: relative;
+  background-color: #0C325A;
 }
 
 .clearfix::after{
@@ -26,13 +27,19 @@
 header{
   width: 80%;
   height: 400px;
-  background-color: red;
   margin: 0 auto;
   position: relative;
 }
+
+.back{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 300px;
+}
+
 .logo-container{
   height: 60px;
-  background-color: blue;
   position: relative;
 }
 
