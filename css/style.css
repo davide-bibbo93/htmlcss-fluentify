@@ -85,7 +85,7 @@ header{
 .sotto{
   width: 80%;
   height: 100px;
-  background: blue;
+  background: lightgray;
   margin: 0 auto;
   text-align: center;
   padding-top: 22px;
@@ -95,18 +95,33 @@ header{
 main{
   width: 80%;
   height: 400px;
-  background: red;
   margin: 0 auto;
+  border: 1px solid lightgray;
 }
 
 .column{
   width: 33%;
   height: 400px;
   text-align: center;
-  border: 1px solid black;
+  padding-top: 20px;
 }
 
 .column img{
   width: 100%;
   height: 150px;
+}
+
+.column h2{
+  color: green;
+}
+
+.column p{
+  padding-top: 10px;
+}
+
+.column h2+div{
+  width: 80px;
+  height: 30px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightgray;
 }
