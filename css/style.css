@@ -6,8 +6,19 @@
 }
 
 .container {
-  width: 1200px;
+  width: 80%;
   margin: auto;
 }
 
 /* end common settings */
+
+.intestazione{
+  height: 500px;
+  background: rgb(12,50,90);
+}
+
+.navbar{
+  height: 80px;
+  line-height: 80px;
+  background: red;
+}
